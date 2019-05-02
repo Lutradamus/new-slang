@@ -1,0 +1,14 @@
+Some changes I would make to the existing design for the purposes of better UX:
+
+- I made the assumption that the cgi dropdown in the top left corner is not something an end user would see, so i removed it to prevent confusion and a possible premature exit from the page.
+- "Form Status:Active" and "Congratulations! Your form is now active." are both conveying the same message. I would opt to keep the "Congratulations .." message.
+- Having a full clickable link and also a button to take you to the same link is redundant. I would opt to eliminate the 'View' button. This might also clear up any confusion that having (2) similarly stlyed call-to-action buttons ('view' and 'finish') on the same page might cause.
+- Showing the form link with its full query sting might be unecessary. 
+- I would make the text justification in the page body more consistent, some text is centered, some text is left-justified and the lists appear right-justified. I would opt to make everything left justified, except for the 'finish' button which I would keep right-justified.
+- I felt if an alert icon is warranted, it should be bigger to draw the user's attention.
+
+
+Process Notes:
+
+I did a wireframe using invision, link: https://projects.invisionapp.com/freehand/document/1GaPfCXeL
+I've hosted a version of the project on my personal site: http://chrisbotto.com/dev/softerware-application/
